@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: transactions
-          image: ghcr.io/rrc-w2025-sparvej/module_6_part3-transactions:16e50fca4c069b236ef11992ad2e072d6b209da3
+          image: ghcr.io/rrc-w2025-sparvej/module_6_part3-transactions:ed264e6fd8ca512750017b4042b18582dab0b44a
           imagePullPolicy: IfNotPresent
           ports:
             - name: http

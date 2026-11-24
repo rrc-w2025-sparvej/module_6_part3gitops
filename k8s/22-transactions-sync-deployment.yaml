@@ -18,7 +18,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: syncer
-          image: ghcr.io/rrc-w2025-sparvej/module_6_part3-syncer:16e50fca4c069b236ef11992ad2e072d6b209da3
+          image: ghcr.io/rrc-w2025-sparvej/module_6_part3-syncer:ed264e6fd8ca512750017b4042b18582dab0b44a
           env:
             - name: SRC_URI
               value: mongodb://mongo-backend:27017

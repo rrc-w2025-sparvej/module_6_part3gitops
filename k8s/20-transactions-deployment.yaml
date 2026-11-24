@@ -15,11 +15,9 @@ spec:
       labels:
         app: transactions
     spec:
-      imagePullSecrets:
-        - name: ghcr-creds
       containers:
         - name: transactions
-          image: ghcr.io/rrc-w2025-sparvej/module_6_part3-transactions:ed264e6fd8ca512750017b4042b18582dab0b44a
+          image: ghcr.io/rrc-w2025-sparvej/module_6_part3-transactions:e5340f8d7c37e291fce08ba8077753ef26091143
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
